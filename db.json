@@ -17,7 +17,7 @@
         "role": "driver",
         "name": "ThankGod Jenny",
         "email": "john.doe@gmail.com",
-        "password": null,
+        "password":"5565",
         "salary": null,
         "hire_date": null,
         "is_active": true,
