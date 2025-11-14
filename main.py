@@ -9,14 +9,17 @@ from utils import (
     get_single_staff_member,
     filter_staff_by_role
 )
+print("==============================================")
+print("     Welcome to the Staff Management System")
+print("============================================")
 
 def main():
     """Main function to run the application."""
     
+   
+    
+   
 
-
-if __name__ == "__main__":
-    main()
-
+    
 
 
