@@ -1,1 +1,29 @@
+[
+    {
+        "id": 1,
+        "role": "admin",
+        "name": "Glory ThankGod",
+        "email": "work.bildup@gmail.com",
+        "password": "1234",
+        "salary": null,
+        "hire_date": null,
+        "is_active": true,
+        "age": null,
+        "address": null,
+        "phone_number": null
+    },
+    {
+        "id": 2,
+        "role": "driver",
+        "name": "ThankGod Jenny",
+        "email": "john.doe@gmail.com",
+        "password": null,
+        "salary": null,
+        "hire_date": null,
+        "is_active": true,
+        "age": null,
+        "address": null,
+        "phone_number": null
+    }
+]
 
