@@ -60,7 +60,7 @@ try:
     elif user_resp == 6:
         pass
     else:
-        print("Choose between 1 and 2.")
+        print("Choose a correct option.")
 except Exception as e:
             print("Invalid input:", e)
 
