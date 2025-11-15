@@ -28,7 +28,22 @@ def get_all_staff():
 
 def get_single_staff_member():
     """Retrieve a single staff member by their ID."""
-    pass
+    staff_id = input("Enter staff ID: ")
+
+    try:
+        with open("db.json", "r") as f:
+            db_data = json.load(f)
+
+        for staff in db_data:
+            if staff["id"] == staff_id:
+                print("Staff found:", staff)
+                return staff
+        
+        print("No staff member found with that ID.")
+        return None
+
+    except Exception as e:
+        print("Error reading database:", e)
 
 def filter_staff_by_role():
     """Filter staff members by their role."""
@@ -63,9 +78,6 @@ try:
         print("Choose a correct option.")
 except Exception as e:
             print("Invalid input:", e)
-
-    
-
 
         
 
