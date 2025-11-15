@@ -71,7 +71,8 @@ try:
     elif user_resp == 4:
         pass
     elif user_resp == 5:
-        pass
+        get_single_staff_member()
+
     elif user_resp == 6:
         pass
     else:
