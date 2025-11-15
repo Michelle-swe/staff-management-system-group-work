@@ -1,10 +1,23 @@
 [
     {
-        "id": 1,
-        "role": "admin",
-        "name": "Glory ThankGod",
-        "email": "work.bildup@gmail.com",
-        "password": "1234",
+        "id": "ea135439-22da-4b6a-8ba8-9e1b30ad8f47",
+        "name": "michelle",
+        "role": "Admin",
+        "email": "michelle@gmail.com",
+        "password": "0000",
+        "is_active": true,
+        "salary": null,
+        "hire_date": null,
+        "age": null,
+        "address": null,
+        "phone_number": null
+    },
+    {
+        "id": "7e2366a1-8a02-42ea-bd59-4da1d8bf37d6",
+        "role": "Cleaner",
+        "name": "vivian",
+        "email": "vivian@gmail.com",
+        "password": "0010",
         "salary": null,
         "hire_date": null,
         "is_active": true,
@@ -13,11 +26,24 @@
         "phone_number": null
     },
     {
-        "id": 2,
-        "role": "driver",
-        "name": "ThankGod Jenny",
-        "email": "john.doe@gmail.com",
-        "password":"5565",
+        "id": "1129716f-c413-4379-a93b-4410353e6d25",
+        "role": "Cook",
+        "name": "bethel",
+        "email": "bethel@gmail.com",
+        "password": "0002",
+        "salary": null,
+        "hire_date": null,
+        "is_active": true,
+        "age": null,
+        "address": null,
+        "phone_number": null
+    },
+    {
+        "id": "95510458-44d2-4ea0-8fe3-44c88bebe6d6",
+        "role": "Gardener",
+        "name": "michelle",
+        "email": "michelle.gardener@gmail.com",
+        "password": "0003",
         "salary": null,
         "hire_date": null,
         "is_active": true,
@@ -26,4 +52,3 @@
         "phone_number": null
     }
 ]
-
